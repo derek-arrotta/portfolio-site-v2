@@ -1,0 +1,95 @@
+
+/* classes */
+.pic {
+    float: right;
+    border: solid 10px #f09846;
+    background: #e2a872;
+    position: relative;
+    top: 0px; right: 150px;
+}
+
+.left-align {
+    margin-left: 100px;
+}
+
+/* font and formatting and color */
+body {
+    background: #f1d891;
+}
+
+h1, h2, h3, p {
+    width: 50%;
+    font-family: Tahoma, sans-serif, 'Times New Roman', Arial;
+    color: #4274e0;
+}
+
+p {
+    font-size: 16px;
+}
+
+ul {
+    color: #4274e0;
+    font-size: 16px;
+    font-family: Tahoma, sans-serif, 'Times New Roman', Arial;
+    margin-bottom: 50px;
+}
+
+header img {
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: outset;
+    border-width: 2px;
+    width: 50%;
+}
+
+/* margin settings */
+h2 {
+    margin-bottom: 0px;
+}
+
+h3 {
+    margin-top: 50px;
+}
+
+main p {
+    margin-bottom: 50px;
+}
+
+main h1 {
+    margin-top: 100px;
+    height: 50px;
+    padding-bottom: 1px;
+}
+
+main h2 {
+    margin-top: 50px;
+}
+
+/* footer */
+a:link    { color: purple;  }
+a:visited { color: red;   }
+a:hover   { color: green; }
+a:active  { color: pink;  }
+
+footer {
+    color: #5050509d;
+    text-align: left;
+}
+
+footer p {
+    color: #5050509d;    
+}
+
+footer h3 {
+    color: #5050509d;
+}
+
+

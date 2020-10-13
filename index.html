@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!--
+Title:                  DEREK ARROTTA PORTFOLIO WEBSITE (flexbox and media queries)
+Author:                 Derek Arrotta
+Completion Date:        OCT-13-2020
+Description/Comments:   This is the primary html code for my portfolio website. Comments below may seem excessive, but are intended for my learning 
+                        purposes since this is the first website I've built. This is built off of the original "portfolio-site", with flexbox and media queries added. 
+-->
+
+<html lang="en-US">
+
+    <!-- setup meta data and links-->
+    <head>
+        <meta charset="utf-8"> <!-- set style sheet encoding to universal "utf-8" for character use (display any human language) -->
+        <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- set viewport to format to device width & control zoom level when the page is first loaded -->
+        <title>Derek Arrotta - Software Engineer - Developer - Designer</title> <!-- title for browser tab, bookmarking, and SEO -->
+        <meta name="author" content="Derek Arrotta">
+        <meta name="generator" content="Derek Arrotta">
+        <meta name="description" content="Derek Arrotta is a Software Engineer, Developer, Designer, and Thinkful Grad, based in the Metro Detroit area.">
+        <meta name=”robots” content="index, follow"> <!-- tells web crawlers to index and follow your site for search engines -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" /> <!-- normalize function: CSS library that sets all HTML elements to display consistently across all supported web browsers -->
+        <link href="style.css" rel="stylesheet" type="text/css" /> <!-- links css style and formatting to html-->
+        <!-- <link rel=”canonical” href=”http://example.com/” /> --> <!-- add git .io website link here once created. This fixes people searching for duplicate versions of your home page-->
+        
+        <!-- og protocol and twitter cards below sampled from http://workdiary.de/-->
+        <!-- below is the open graph protocol invented by facebook for richer metadata for websites -->
+        <meta property="og:locale" content="en_US">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Derek Arrotta - Detroit, MI Developer - Thinkful Grad">
+        <meta property="og:description" content="Derek Arrotta is a Software Engineer, Developer, Designer, and Thinkful Grad, based in the Metro Detroit area.">
+        <!-- <meta property="og:url" content="http://workdiary.de"> --> <!-- put url here once complete-->
+        <meta property="og:site_name" content="Derek Arrotta">
+        <meta property="og:image" content="images/derek-arrotta-portfolio-pic.jpg">
+        <meta property="og:image:type" content="image/jpg">
+        <meta property="og:image:width" content="241">
+        <meta property="og:image:height" content="241"> 
+        <!-- Twitter Cards below; you can attach rich photos, videos and media experiences to Tweets, helping to drive traffic to your website. -->
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="@_designer_D">
+        <meta name="twitter:creator" content="@_designer_D">
+        <meta name="twitter:title" content="Derek Arrotta - Detroit, MI Developer - Thinkful Grad">
+        <meta name="twitter:description" content="Derek Arrotta is a Software Engineer, Developer, Designer, and Thinkful Grad, based in the Metro Detroit area.">
+        <meta name="twitter:image" content="images/derek-arrotta-portfolio-pic.jpg">
+    </head>
+
+    <!-- body contains core content of site thats displayed -->
+    <body>
+        
+        <!-- image of my name "Derek Arrotta"-->
+        <header>
+            <img src="images/myName.png" class="png" alt="Derek Arrotta"/>
+        </header>
+
+        
+        <main>
+            <!-- my image png on right side of web page (with orange border)-->
+            <img src="images/derek-arrotta.png" width="300" class="pic" alt="Picture of Derek Arrotta looking up and to the left"/>
+            
+            <!-- INTRO (waving blue hand gif, intro, and interests) -->
+            <article>
+            <h1 class="left-align"> <img src="images/waving-blue-hand.gif" width="25" class="gif" alt="waving blue hand gif"/>Hello, I'm <strong><em>Derek</em></strong>.</h1>
+            <h2 class="left-align">I'm a <em>Web Developer </em>and <em>Software Engineer</em> interested in creating memorable, creative, and 
+                fun designs that spark emotional connection and solve real world problems. In my free time I enjoy:
+            </h2>
+            <ul class="left-align">
+                <li>playing guitar</li>
+                <li>photography</li>
+                <li>& hanging out with my family</li>
+            </ul>
+            </article>
+            
+            <!-- horizontal line -->
+            <hr class="left-align">
+            
+            <!-- ABOUT ME (below intro section on web page)-->
+            <article>
+            <h3 class="left-align">About Me</h3>
+                <p class="left-align">Metro <em>Detroit</em> (MI) transplant from the Pacific Northwest. I graduated in 2014 with 
+                    a degree in <em>Mechanical Engineering</em>, and spent the last 6 years working for General Motors. After becoming
+                    dissatisfied with the work, I decided it was time to make a change and move into a new career as a <em>software
+                    engineer</em>. So I joined the <em>Thinkful</em>  Bootcamp in September 2020 and I'm so happy I did! Its been challenging,
+                    but so rewarding, and I hope to develop awesome software and apps in the near future. If you're looking to 
+                    collaborate, or are hiring, please feel free to reach out!
+                </p>
+            </article>
+            
+            <!-- horizontal line -->
+            <hr class="left-align">
+        </main>
+
+        <footer>
+            <!-- CONTACT INFO -->
+            <article>
+            <h3 class="left-align">Contact</h3>
+            <p class="left-align">If you'd like to reach me, please contact or follow me here:</p>
+            <ol>
+                <li class="left-align"><a href="https://www.linkedin.com/in/da123/">LinkedIn</a></li>
+                <li class="left-align"><a href="https://github.com/derek-arrotta">GitHub</a></li>
+                <li class="left-align"><a href="mailto::derek.arrotta@gmail.com">Email</a></li>
+            </ol>
+            </article>
+        </footer>
+
+        <!-- javascript code linked here (script.js is empty right now, but can be used in the future if needed) -->
+        <script src="script.js"></script>
+
+    </body>
+
+</html>
