@@ -1,44 +1,82 @@
 
-/* classes */
-.pic {
-    float: right;
-    border: solid 10px #f09846;
-    background: #e2a872;
-    position: relative;
-    top: 0px; right: 150px;
-}
+/* imort fonts from google and adobe */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@600;700&display=swap');
+@import url("https://use.typekit.net/rqy4bhg.css");
 
-.left-align {
-    margin-left: 100px;
-}
 
-/* font and formatting and color */
+/* font and formatting and color and margin */
+
 body {
-    background: #f1d891;
+    margin: 0;
+    background: #f1deaa;
 }
 
-h1, h2, h3, p {
-    width: 50%;
-    font-family: Tahoma, sans-serif, 'Times New Roman', Arial;
+.border-style-img {
+    border: solid 10px #f09846a9;
+    border-radius: 25px;
+    background: #e2a872a9;
+}
+
+header, footer {
+    background-color: #87a3dfc5;
+    margin-bottom: 40px;
+    display: block;
+}
+  
+header h1 {
+    color: #ffffff;
+    text-align: left;
+    margin: 0;
+    padding: 70px 135px;
+    font-family: 'rig-shaded-medium-extrude', 'Cormorant', Tahoma, sans-serif, 'Times New Roman', Arial;
+    font-style: normal;
+    font-size: 70px;
+    font-weight: 700;
+}
+
+#home {
+  padding-bottom: 50px;
+}
+
+main h2 {
+    margin-right: 10px;
+}
+
+h2, h3 {
+    font-family: 'Cormorant', Tahoma, sans-serif, 'Times New Roman', Arial;
     color: #4274e0;
+    font-weight: 600;
+    font-size: 30px;
 }
 
 p {
-    font-size: 16px;
+    font-family: 'Cormorant', Tahoma, sans-serif, 'Times New Roman', Arial;
+    color: #4274e0;
+    font-weight: 600;
+    font-size: 18px;
 }
 
 ul {
     color: #4274e0;
-    font-size: 16px;
-    font-family: Tahoma, sans-serif, 'Times New Roman', Arial;
+    font-size: 20px;
+    font-family: 'Cormorant', Tahoma, sans-serif, 'Times New Roman', Arial;
     margin-bottom: 50px;
+    font-weight: 600;
 }
 
-header img {
-    margin-top: 40px;
-    margin-left: 100px;
+#portfolio div.item {
+  padding-right: 15px;
 }
 
+#portfolio h4 {
+  font-family: 'Cormorant', Tahoma, sans-serif, 'Times New Roman', Arial;
+  color: #4274e0;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+
+/* 
 hr {
     display: block;
     margin-top: 0.5em;
@@ -49,29 +87,8 @@ hr {
     border-width: 2px;
     width: 50%;
 }
+*/
 
-/* margin settings */
-h2 {
-    margin-bottom: 0px;
-}
-
-h3 {
-    margin-top: 50px;
-}
-
-main p {
-    margin-bottom: 50px;
-}
-
-main h1 {
-    margin-top: 100px;
-    height: 50px;
-    padding-bottom: 1px;
-}
-
-main h2 {
-    margin-top: 50px;
-}
 
 /* footer */
 a:link    { color: purple;  }
@@ -79,17 +96,61 @@ a:visited { color: red;   }
 a:hover   { color: green; }
 a:active  { color: pink;  }
 
-footer {
-    color: #5050509d;
-    text-align: left;
-}
-
-footer p {
-    color: #5050509d;    
-}
-
 footer h3 {
-    color: #5050509d;
+    color: #000000;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+footer a {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 100px;
 }
 
 
+/* Groups & Items  (Mobile First) */
+.wrapper {
+    width: 100%;
+}
+  
+  .group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  
+  .item {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  .item-double {
+    flex: 2;
+    margin: 10px;
+  }
+
+/* Groups & Items  (Desktop) */
+
+  @media all and (min-width: 800px) {
+    .wrapper {
+      width: 80%;
+      margin: auto;
+    }
+  
+    .group {
+      flex-direction: row;
+    }
+  }
+
+/* article section id's */
+  
+main section {
+    background-color: #dfdfdf;
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
