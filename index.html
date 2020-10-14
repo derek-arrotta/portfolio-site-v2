@@ -45,108 +45,118 @@ Description/Comments:   This is the primary html code for my portfolio website. 
 
     <!-- body contains core content of site thats displayed -->
     <body>
-        
         <!-- image of my name "Derek Arrotta"-->
         <header>
             <h1><strong>Derek Arrotta</strong></h1>
+            <nav>
+                <ul id="menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
         </header>
         
         <main>
-            <div class="wrapper">
             <!-- INTRO (waving blue hand gif, intro, and interests) -->
-                <article id="home">
-                    <div class="group">
-                        <div class="item">
-                            <h2> <img src="images/waving-blue-hand.gif" width="25" class="gif" alt="waving blue hand gif"/>Hello, I'm <strong><em>Derek</em></strong>.
-                            </h2>
-                            <h2>I'm a <em>Web Developer </em>and <em>Software Engineer</em> interested in creating memorable, creative, and 
-                                fun designs that spark emotional connection and solve real world problems. In my free time I enjoy playing 
-                                guitar, photography, & hanging out with my family
-                            </h2>
-                        </div>
-                        <div class="item">
-                            <img src="images/derek-arrotta.png" class="png, border-style-img" width="300" alt="Picture of Derek Arrotta looking up and to the left"/><!-- my image png on right side of web page (with orange border)-->
-                        </div>
-                        <!-- horizontal line -->
-                        <!-- <hr> -->
+            <article id="home">
+                <div class="group">
+                    <div class="item">
+                        <h2> <img src="images/waving-blue-hand.gif" width="25" class="gif" alt="waving blue hand gif"/>Hello, I'm <strong><em>Derek</em></strong>.
+                        </h2>
+                        <p>I'm a <em>Web Developer </em>and <em>Software Engineer</em> interested in creating memorable, creative, and 
+                            fun designs that spark emotional connection and solve real world problems. In my free time I enjoy playing 
+                            guitar, photography, & hanging out with my family
+                        </p>
                     </div>
-                </article>
-            </div>
+                    <div class="item">
+                        <img src="images/derek-arrotta.png" class="png, border-style-img" alt="Picture of Derek Arrotta looking up and to the left"/><!-- my image png on right side of web page (with orange border)-->
+                    </div>
+                </div>
+            </article>
+            
 
             <!-- ABOUT ME (below intro section on web page)-->
-            <section>
-                <div class="wrapper">
-                    <article id="about">
-                        <h3>About Me</h3>
-                            <div class="group">
-                                <div class="item">
-                                    <p>Metro <em>Detroit</em> (MI) transplant from the Pacific Northwest. I graduated in 2014 with 
-                                    a degree in <em>Mechanical Engineering</em>, and spent the last 6 years working for General Motors. After becoming
-                                    dissatisfied with the work, I decided it was time to make a change and move into a new career as a <em>software
-                                    engineer</em>. So I joined the <em>Thinkful</em>  Bootcamp in September 2020 and I'm so happy I did! Its been challenging,
-                                    but so rewarding, and I hope to develop awesome software and apps in the near future. If you're looking to 
-                                    collaborate, or are hiring, please feel free to reach out!
-                                    </p>
-                                </div>
-                                <div class="item">
-                                    <img src="images/detroit-d.png"  class="png" width="500" alt="stylized detroit D letter">
-                                </div>
-                            </div>
-                        </article>
+            <article id="about">
+                <h2>About Me</h2>
+                    <div class="group">
+                        <div class="item">
+                            <p>Metro <em>Detroit</em> (MI) transplant from the Pacific Northwest. I graduated in 2014 with 
+                            a degree in <em>Mechanical Engineering</em>, and spent the last 6 years working for General Motors. After becoming
+                            dissatisfied with the work, I decided it was time to make a change and move into a new career as a <em>software
+                            engineer</em>. So I joined the <em>Thinkful</em>  Bootcamp in September 2020 and I'm so happy I did! Its been challenging,
+                            but so rewarding, and I hope to develop awesome software and apps in the near future. If you're looking to 
+                            collaborate, or are hiring, please feel free to reach out!
+                            </p>
+                        </div>
+                        <div class="item">
+                            <img src="images/detroit-d.png"  class="png" alt="stylized detroit D letter">
+                        </div>
                     </div>
-            </section>
+            </article>
+            
 
-            <div class="wrapper">
-                <article id="portfolio">
-                    <h3>Portfolio</h3>
-                        <div class="group">
-                            <div class="item">
-                                <img src="images/tv-static.jpg" class="jpg" width="500" alt="app1 description here" />
-                                <h4>App Name1</h4>
-                                <p>This is a description of the Quiz App I built. I'll share what my goal was 
-                                    in creating it, the skills/languages I applied, and what I learned doing it.</p>
-                            </div>
-                            <div class="item">
-                                <img src="images/tv-static.jpg" class="jpg" width="500" alt="app2 description here" />
-                                <h4>App Name2</h4>
-                                <p>This is a description of the Quiz App I built. I'll share what my goal was 
-                                    in creating it, the skills/languages I applied, and what I learned doing it.</p>
-                            </div>
+            <!-- portfolio section placeholder for future projects-->
+            <article id="portfolio">
+                <h2>Portfolio</h2>
+                    <div class="group">
+                        <div class="item">
+                            <img src="images/tv-static.jpg" class="jpg" alt="app1 description here" />
+                            <h3>App Name1</h3>
+                            <p>This is a description of the Quiz App I built. I'll share what my goal was
+                                in creating it, the skills/languages I applied, and what I learned doing it.</p>
                         </div>
-                        <div class="group">
-                            <div class="item">
-                                <img src="images/tv-static.jpg" class="jpg" width="500" alt="app3 description here" />
-                                <h4>App Name3</h4>
-                                <p>This is a description of the Quiz App I built. I'll share what my goal was 
-                                    in creating it, the skills/languages I applied, and what I learned doing it.</p>
-                            </div>
-                            <div class="item">
-                                <img src="images/tv-static.jpg" class="jpg" width="500" alt="app4 description here" />
-                                <h4>App Name4</h4>
-                                <p>This is a description of the Quiz App I built. I'll share what my goal was 
-                                    in creating it, the skills/languages I applied, and what I learned doing it.</p>
-                            </div>  
+                        <div class="item">
+                            <img src="images/tv-static.jpg" class="jpg" alt="app2 description here" />
+                            <h3>App Name2</h3>
+                            <p>This is a description of the Quiz App I built. I'll share what my goal was
+                                in creating it, the skills/languages I applied, and what I learned doing it.</p>
                         </div>
-                </article>
-            </div>
-            <!-- horizontal line -->
-            <!-- <hr> -->
+                    </div>
+                    <div class="group">
+                        <div class="item">
+                            <img src="images/tv-static.jpg" class="jpg" alt="app3 description here" />
+                            <h3>App Name3</h3>
+                            <p>This is a description of the Quiz App I built. I'll share what my goal was
+                                in creating it, the skills/languages I applied, and what I learned doing it.</p>
+                        </div>
+                        <div class="item">
+                            <img src="images/tv-static.jpg" class="jpg" alt="app4 description here" />
+                            <h3>App Name4</h3>
+                            <p>This is a description of the Quiz App I built. I'll share what my goal was
+                                in creating it, the skills/languages I applied, and what I learned doing it.</p>
+                        </div>
+                    </div>
+            </article>
         </main>
 
         <footer>
             <!-- CONTACT INFO -->
-            <div class="wrapper">
-                <article id="contact">
+            <article id="contact">
+                <h2>Contact</h2>
+                <a href="https://www.linkedin.com/in/da123/"><img src="images/linkedin.png" class="png" width="37" alt="Derek Arrotta linkedin site" /></a>
+                <a href="https://github.com/derek-arrotta"><img src="images/github.png" class="png" width="37" alt="Derek Arrotta github site" /></a>
+                <a href="mailto::derek.arrotta@gmail.com"><img src="images/email.png" class="png" width="45" alt="Derek Arrotta email address" /></a>
                     <div class="group">
                         <div class="item">
-                            <h3>Contact</h3>
-                            <a href="https://www.linkedin.com/in/da123/"><img src="images/linkedin.png" class="png" width="37" alt="Derek Arrotta linkedin site" /></a>
-                            <a href="https://github.com/derek-arrotta"><img src="images/github.png" class="png" width="37" alt="Derek Arrotta github site" /></a>
-                            <a href="mailto::derek.arrotta@gmail.com"><img src="images/email.png" class="png" width="45" alt="Derek Arrotta email address" /></a>
+                            <form action="#" method="POST">
+                                <label for="user-name">Name:</label>
+                                <input id="user-name" type="text" name="name">
+                
+                                <label for="user-email">Email:</label>
+                                <input id="user-email" type="text" name="email">
+                
+                                <label for="user-message">Message:</label>
+                                <textarea id="user-message" name="message"></textarea>
+                                <button type="submit">Submit</button>
+                            </form>
+                        </div>
+                        <div class="item">
+                            <img src="images/detroit.jpg" class="jpg" width="250" alt="map of detroit"/>
                         </div>
                     </div>
-                </article>
-            </div>
+            </article>
         </footer>
 
         <!-- javascript code linked here (script.js is empty right now, but can be used in the future if needed) -->
