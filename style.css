@@ -32,7 +32,7 @@ p {
 }
 
 header, #home, #about, #portfolio, footer {
-  padding-left: 100px;
+  padding-left: 20px;
   padding-right: 50px;
 }
 
@@ -94,7 +94,7 @@ header h1 {
   margin: 0;
   padding-bottom: 100px;
   font-family: 'rig-shaded-medium-extrude', 'Cormorant', Tahoma, sans-serif, 'Times New Roman', Arial;
-  font-size: 65px;
+  font-size: 50px;
   font-weight: 50;
 }
 
@@ -106,9 +106,9 @@ header h1 {
   background: #e2a872a9;
 }
 
-#home img {
-  max-width: 60%;
-  margin-left: 70px;
+#home .group img {
+  max-width: 50%;
+  margin-left: 90px;
 }
 
 /* ABOUT ME*/
@@ -148,10 +148,6 @@ footer {
   padding-bottom: 50px;
 }
 
-#contact .item img {
-  padding-left: 70px;
-}
-
 /* contact form */
 form {
   padding-right: 50px;
@@ -189,6 +185,10 @@ form textarea {
   margin: 10px;
 }
 
+footer img {
+   max-width: 90%;
+}
+
 /* Groups & Items  (Desktop) */
 
 @media all and (min-width: 800px) {
@@ -196,6 +196,15 @@ form textarea {
   .group {
     flex-direction: row;
     justify-content: center;
+  }
+
+  header h1 {
+    font-size: 80px;
+  }
+
+  header, #home, #about, #portfolio, footer {
+    padding-left: 150px;
+    padding-right: 150px;
   }
 
 }
