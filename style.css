@@ -3,55 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@600;700&display=swap');
 @import url("https://use.typekit.net/rqy4bhg.css");
 
-/* ---  Navigation --- */
-  header nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-
-  header nav ul {
-    display: flex;
-    flex-direction: row;
-    padding-bottom: 0;
-  }
-
-  header nav ul li {
-    list-style-type: none;
-  }
-
-  header nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    padding: 0 20px 0 0;
-    font-family: 'Montserrat Alternates', sans-serif;
-  }
-
-  header nav ul li a:hover {
-    color: #bdbdbd;
-  }
-
-  @media all and (min-width: 700px) {
-    header {
-      display: flex;
-      justify-content: space-between;
-    }
-
-    .logo {
-      margin: 14px 0 14px 20px;
-      padding-top: 0;
-      font-size: 42px;
-    }
-    
-    header nav {
-      margin-top: 14px;
-    }
-  }
-
-
 /* affects whole page, or more than one section */
 body {
   background: #f1deaa;
+  margin: 0;
 }
 
 header, footer {
@@ -80,6 +35,53 @@ header, #home, #about, #portfolio, footer {
   padding-left: 100px;
   padding-right: 50px;
 }
+
+
+/* ---  Navigation --- */
+  header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  header nav ul {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 0;
+  }
+
+  header nav ul li {
+    list-style-type: none;
+  }
+
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 20px 0 0;
+    font-family: 'Cormorant', Tahoma, sans-serif, 'Times New Roman', Arial;
+  }
+
+  header nav ul li a:hover {
+    color: #bdbdbd;
+  }
+
+  @media all and (min-width: 700px) {
+    header {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .logo {
+      margin: 14px 0 14px 20px;
+      padding-top: 0;
+      font-size: 42px;
+    }
+    
+    header nav {
+      margin-top: 14px;
+    }
+  }
+
 
 /* HEADER */
 header {
@@ -175,7 +177,6 @@ form textarea {
   display: flex;
   flex-direction: column;
   margin-bottom: 50px;
-  justify-content: center;
 }
   
 .item {
