@@ -59,6 +59,7 @@ header, #home, #about, #portfolio, footer {
     text-decoration: none;
     padding: 0 20px 0 0;
     font-family: 'Cormorant', Tahoma, sans-serif, 'Times New Roman', Arial;
+    font-size: 16px;
   }
 
   header nav ul li a:hover {
