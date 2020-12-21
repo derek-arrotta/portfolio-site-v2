@@ -4,7 +4,7 @@ This is the [portfolio website](https://derek-arrotta.github.io/portfolio-site-v
 
 ## Built Using...
 
-### ...HTML & CSS with flexbox layout and contact media query. 
+...HTML & CSS with flexbox layout and contact media query. 
 
 ## Screenshots
 
