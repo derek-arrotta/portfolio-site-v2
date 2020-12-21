@@ -4,16 +4,16 @@ This is the [portfolio website](https://derek-arrotta.github.io/portfolio-site-v
 
 ## Screenshots
 
-###Intro
+### Intro
 ![intro](images/screenshot-intro.png)
 
-###About Me
+### About Me
 ![about](images/screenshot-about.png)
 
-###Portfolio
+### Portfolio
 ![portfolio](images/screenshot-portfolio.png)
 
-###Contact
+### Contact
 ![contact](images/screenshot-contact.png)
 
  second iteration of portfolio site. adding flexbox layout and media query
